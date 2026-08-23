@@ -35,21 +35,7 @@ AI and modern software made execution cheaper. We use that leverage to stay smal
 
 **All work →**
 
-### 01 / STEALTH
-
-**Intelligence Operations**
-
-AI NATIVE · MULTI-SOURCE
-
-Operators cannot hold dozens of sources in their head, and gathering that evidence by hand is too slow.
-
-Stealth collects across sources quickly, maintains context across far more information than one operator can track, and turns it into one coherent picture.
-
-The product is in market with early users and design partners shaping its next stage.
-
-**View company →**
-
-### 02 / PAYLENS
+### 01 / PAYLENS
 
 **Enterprise fintech & data**
 
@@ -60,6 +46,20 @@ Insurance agencies drown in fragmented data: different insurers, portals, format
 Paylens turns that mess into one structured data layer for reporting, reconciliation, automation, and better decisions.
 
 The company has a shipping enterprise product and real customers in the market.
+
+**View company →**
+
+### 02 / STEALTH
+
+**Intelligence Operations**
+
+AI NATIVE · MULTI-SOURCE
+
+Operators cannot hold dozens of sources in their head, and gathering that evidence by hand is too slow.
+
+Stealth collects across sources quickly, maintains context across far more information than one operator can track, and turns it into one coherent picture.
+
+The product is in market with early users and design partners shaping its next stage.
 
 **View company →**
 
@@ -142,8 +142,6 @@ We start with a real problem, get close to the people who live it, and build som
 **ABOUT**
 
 ## Behind HAMIFAL is Si Tadmor.
-
-**Founder**
 
 Si Tadmor is a Unit 8200 alumnus, recipient of the Israel Defense Prize, and holds a B.Sc. in Computer Science.
 

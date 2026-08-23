@@ -28,9 +28,6 @@ export function BehindHamifal() {
               <h2 className="font-display text-4xl tracking-tight text-balance md:text-5xl">
                 Behind HAMIFAL is Si Tadmor.
               </h2>
-              <MonoLabel className="mt-3 block text-foreground">
-                Founder
-              </MonoLabel>
               <div className="mt-8 max-w-2xl space-y-5 text-base leading-relaxed text-muted-foreground md:text-lg">
                 <p>
                   Si Tadmor is a Unit 8200 alumnus, recipient of the Israel

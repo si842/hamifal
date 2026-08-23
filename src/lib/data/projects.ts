@@ -22,45 +22,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "stealth",
-    name: "STEALTH",
-    category: "Intelligence Operations",
-    tags: ["AI NATIVE", "MULTI-SOURCE"],
-    year: "2026 – present",
-    summary:
-      "Operators cannot hold dozens of sources in their head, and gathering that evidence by hand is too slow. Built to collect across sources quickly, keep context across far more information than a person can track, and produce one coherent picture operators can use.",
-    description:
-      "Operators cannot hold dozens of sources in their head, and gathering that evidence by hand is too slow.\n\nStealth collects across sources quickly, maintains context across far more information than one operator can track, and turns it into one coherent picture.\n\nThe product is in market, with early design partners shaping its next stage.",
-    visualTone: "ink",
-    sections: [
-      {
-        label: "Context",
-        body: [
-          "Intelligence work is inherently multi-source. Operators needed a system that could collect broadly, retrieve precisely, and reason across information without losing provenance.",
-        ],
-      },
-      {
-        label: "What we built",
-        body: [
-          "An AI-native intelligence platform for multi-source collection, retrieval, and analysis.",
-          "The product combines agent workflows, embeddings, vector retrieval, RAG, access controls, and auditability in a system designed for sustained operator use.",
-        ],
-      },
-      {
-        label: "What we did",
-        body: [
-          "Worked across the company's zero-to-one phase: product strategy, architecture, agent design, and the first production release, alongside market validation, design partners, hiring, GTM, and early strategic work.",
-        ],
-      },
-      {
-        label: "Outcome",
-        body: [
-          "A launched product, early design-partner engagement, and a team built around the problem, with the foundation for commercial growth.",
-        ],
-      },
-    ],
-  },
-  {
     slug: "paylens",
     name: "PAYLENS",
     category: "Enterprise fintech & data",
@@ -124,6 +85,45 @@ export const projects: Project[] = [
     ],
   },
   {
+    slug: "stealth",
+    name: "STEALTH",
+    category: "Intelligence Operations",
+    tags: ["AI NATIVE", "MULTI-SOURCE"],
+    year: "2026 – present",
+    summary:
+      "Operators cannot hold dozens of sources in their head, and gathering that evidence by hand is too slow. Built to collect across sources quickly, keep context across far more information than a person can track, and produce one coherent picture operators can use.",
+    description:
+      "Operators cannot hold dozens of sources in their head, and gathering that evidence by hand is too slow.\n\nStealth collects across sources quickly, maintains context across far more information than one operator can track, and turns it into one coherent picture.\n\nThe product is in market, with early design partners shaping its next stage.",
+    visualTone: "ink",
+    sections: [
+      {
+        label: "Context",
+        body: [
+          "Intelligence work is inherently multi-source. Operators needed a system that could collect broadly, retrieve precisely, and reason across information without losing provenance.",
+        ],
+      },
+      {
+        label: "What we built",
+        body: [
+          "An AI-native intelligence platform for multi-source collection, retrieval, and analysis.",
+          "The product combines agent workflows, embeddings, vector retrieval, RAG, access controls, and auditability in a system designed for sustained operator use.",
+        ],
+      },
+      {
+        label: "What we did",
+        body: [
+          "Helped build and develop the product, and worked on product and strategy, with some early market validation.",
+        ],
+      },
+      {
+        label: "Outcome",
+        body: [
+          "A launched product, early design-partner engagement, and a team built around the problem, with the foundation for commercial growth.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "modge",
     name: "MODGE",
     category: "Outsourcing & productivity",
@@ -175,7 +175,7 @@ export const projects: Project[] = [
       {
         label: "Outcome",
         body: [
-          "Built and launched the core product in 2025. The company was ultimately discontinued, but the work established a reusable foundation across desktop automation, operational data, and workflow systems.",
+          "Built and launched the core product in 2025.",
         ],
       },
     ],
