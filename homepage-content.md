@@ -137,16 +137,7 @@ We start with a real problem, get close to the people who live it, and build som
 
 ---
 
-## Writing / Podcast
-
-**WRITING / PODCAST**
-
-Essays, lessons, and conversations about company building, technology, product, execution, and founders.
-
-**Writing →**
-**Podcast →**
-
-### Latest episode / Bootstrapia
+## Latest episode / Bootstrapia
 
 **01**
 
