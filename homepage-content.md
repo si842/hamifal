@@ -137,6 +137,27 @@ We start with a real problem, get close to the people who live it, and build som
 
 ---
 
+## Writing / Podcast
+
+**WRITING / PODCAST**
+
+Essays, lessons, and conversations about company building, technology, product, execution, and founders.
+
+**Writing →**
+**Podcast →**
+
+### Latest episode / Bootstrapia
+
+**01**
+
+**How to manage several companies with AI agents**
+
+In the first episode of Bootstrapia I host Ashley, who builds technology products for small businesses in parallel — from gel polish to payment solutions.
+
+**All episodes →**
+
+---
+
 ## Behind HAMIFAL
 
 **ABOUT**
@@ -150,19 +171,6 @@ He is the former Director of Research at Lab42, where he built the research orga
 His career has spanned both technology and business, from building the technology itself to turning it into products, teams, customers, and companies.
 
 In recent years, he has focused on building companies and helping exceptional people build theirs.
-
----
-
-## Writing / Podcast
-
-**WRITING / PODCAST**
-
-## Ideas from building.
-
-Essays, lessons, and conversations about company building, technology, product, execution, and founders.
-
-**Writing →**
-**Podcast →**
 
 ---
 

@@ -109,7 +109,7 @@ export default function InsightsPage() {
                   <div className="col-span-12 mt-3 md:col-span-8 md:col-start-5 md:mt-0">
                     <h3 className="font-display text-2xl tracking-tight md:text-3xl">
                       <Link
-                        href={`/podcast/${episode.slug}`}
+                        href="/podcast"
                         className="transition-opacity hover:opacity-60"
                       >
                         {episode.title}

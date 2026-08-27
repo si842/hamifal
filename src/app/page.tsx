@@ -10,8 +10,8 @@ export default function HomePage() {
       <Hero />
       <SelectedWork />
       <Thesis />
-      <BehindHamifal />
       <IdeasPreview />
+      <BehindHamifal />
     </>
   );
 }

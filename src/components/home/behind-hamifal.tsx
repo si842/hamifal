@@ -6,7 +6,7 @@ import { founder } from "@/lib/data/studio";
 
 export function BehindHamifal() {
   return (
-    <section className="border-b border-border">
+    <section>
       <Container className="py-20 md:py-28">
         <Reveal>
           <div className="site-grid border border-border">

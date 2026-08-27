@@ -48,21 +48,10 @@ export const insights: Insight[] = [
   {
     slug: "bootstrapia-ep-01",
     kind: "podcast",
-    title: "Building under constraint",
+    title: "How to manage several companies with AI agents",
     summary:
-      "A conversation with founders about building under constraint, technical judgment, and what 0→1 actually feels like.",
-    meta: "PODCAST / HEBREW",
-    language: "he",
-    href: "/podcast/bootstrapia-ep-01",
-  },
-  {
-    slug: "bootstrapia-ep-02",
-    kind: "podcast",
-    title: "Product taste and security instincts",
-    summary:
-      "On product taste, security instincts, and knowing when an idea is ready to become a company.",
-    meta: "PODCAST / HEBREW",
-    language: "he",
-    href: "/podcast/bootstrapia-ep-02",
+      "In the first episode of Bootstrapia I host Ashley, who builds technology products for small businesses in parallel — from gel polish to payment solutions.",
+    meta: "PODCAST / EP 01",
+    href: "/podcast",
   },
 ];
