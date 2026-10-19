@@ -6,10 +6,14 @@ import { Reveal } from "@/components/shared/reveal";
 import { TextLink } from "@/components/shared/text-link";
 import { blogPosts, formatBlogDate } from "@/lib/data/blog";
 import {
+  episodeParagraphs,
   formatEpisodeDate,
-  podcastEpisodes,
+  getPodcastEpisodes,
+  PODCAST_REVALIDATE_SECONDS,
   podcastShow,
 } from "@/lib/data/podcast";
+
+export const revalidate = PODCAST_REVALIDATE_SECONDS;
 
 export const metadata: Metadata = {
   title: "Insights",
@@ -17,7 +21,8 @@ export const metadata: Metadata = {
     "Essays, Bootstrapia, and selected research from HAMIFAL.",
 };
 
-export default function InsightsPage() {
+export default async function InsightsPage() {
+  const podcastEpisodes = await getPodcastEpisodes();
   return (
     <>
       <section className="border-b border-border">
@@ -107,7 +112,10 @@ export default function InsightsPage() {
                     </MonoLabel>
                   </div>
                   <div className="col-span-12 mt-3 md:col-span-8 md:col-start-5 md:mt-0">
-                    <h3 className="font-display text-2xl tracking-tight md:text-3xl">
+                    <h3
+                      dir="auto"
+                      className="font-display text-2xl tracking-tight md:text-3xl"
+                    >
                       <Link
                         href="/podcast"
                         className="transition-opacity hover:opacity-60"
@@ -115,8 +123,11 @@ export default function InsightsPage() {
                         {episode.title}
                       </Link>
                     </h3>
-                    <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
-                      {episode.summary}
+                    <p
+                      dir="auto"
+                      className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground"
+                    >
+                      {episodeParagraphs(episode.summary)[0]}
                     </p>
                   </div>
                 </article>
