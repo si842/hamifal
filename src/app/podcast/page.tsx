@@ -5,17 +5,21 @@ import { MonoLabel } from "@/components/shared/mono-label";
 import { Reveal } from "@/components/shared/reveal";
 import {
   episodeParagraphs,
-  formatEpisodeDate,
-  podcastEpisodes,
+  formatEpisodeMeta,
+  getPodcastEpisodes,
+  PODCAST_REVALIDATE_SECONDS,
   podcastShow,
 } from "@/lib/data/podcast";
+
+export const revalidate = PODCAST_REVALIDATE_SECONDS;
 
 export const metadata: Metadata = {
   title: "Bootstrapia",
   description: `${podcastShow.name}: ${podcastShow.description}`,
 };
 
-export default function PodcastPage() {
+export default async function PodcastPage() {
+  const podcastEpisodes = await getPodcastEpisodes();
   return (
     <>
       <section className="border-b border-border">
@@ -58,11 +62,14 @@ export default function PodcastPage() {
                       {episode.number}
                     </p>
                     <MonoLabel className="mt-4 block">
-                      {formatEpisodeDate(episode.date)} / {episode.duration}
+                      {formatEpisodeMeta(episode)}
                     </MonoLabel>
                   </div>
                   <div className="col-span-12 mt-4 md:col-span-8 md:col-start-5 md:mt-0">
-                    <h2 className="font-display text-2xl tracking-tight md:text-4xl">
+                    <h2
+                      dir="auto"
+                      className="font-display text-2xl tracking-tight md:text-4xl"
+                    >
                       {episode.title}
                     </h2>
                     <div className="mt-6">
@@ -73,14 +80,18 @@ export default function PodcastPage() {
                     </div>
                     <div className="mt-6 max-w-2xl space-y-4 text-base leading-relaxed text-muted-foreground">
                       {episodeParagraphs(episode.summary).map((paragraph) => (
-                        <p key={paragraph}>{paragraph}</p>
+                        <p key={paragraph} dir="auto">
+                          {paragraph}
+                        </p>
                       ))}
                     </div>
-                    <div className="mt-6 flex flex-wrap gap-x-4 gap-y-2">
-                      {episode.topics.map((topic) => (
-                        <MonoLabel key={topic}>{topic}</MonoLabel>
-                      ))}
-                    </div>
+                    {episode.topics.length > 0 ? (
+                      <div className="mt-6 flex flex-wrap gap-x-4 gap-y-2">
+                        {episode.topics.map((topic) => (
+                          <MonoLabel key={topic}>{topic}</MonoLabel>
+                        ))}
+                      </div>
+                    ) : null}
                   </div>
                 </div>
               </article>
