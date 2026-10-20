@@ -7,11 +7,10 @@ import {
   episodeParagraphs,
   formatEpisodeMeta,
   getPodcastEpisodes,
-  PODCAST_REVALIDATE_SECONDS,
   podcastShow,
 } from "@/lib/data/podcast";
 
-export const revalidate = PODCAST_REVALIDATE_SECONDS;
+export const revalidate = 900;
 
 export const metadata: Metadata = {
   title: "Bootstrapia",
